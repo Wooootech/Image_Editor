@@ -45,9 +45,7 @@ int main(int argc, char *argv[])
 		Num_Cols = 640;	// default values
 	}
 
-	// you need to add this
-	// define your variable-length image array (I'm assuming it is called "img")
-	// you need to add this
+	
   struct pixel img[Num_Rows][Num_Cols];
 
 	// skip over the header
